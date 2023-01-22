@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #111;
+  color: lavender;
+}
+</style>
+</head>
+<body>
+
+<h2>Are You </h2>
+
+<ul>
+  <li><a href="GIVEUP.html">Give Up ?</a></li>
+  <li><a href="FEEL DOWN.html">Feeling Down ?</a></li>
+  <li><a href="ISTILAH KATA.html">Need Quote ?</a></li>
+</ul>
+
+
+
+
+<h2>Adakah you rasa nak bangkit lepasni ?</h2>
+<h2>Come on you can do it !</h2>
+<select>
+<option value="Saya boleh buat">Saya boleh buat</option>
+<option value="Saya akan cuba">Saya akan cuba</option>
+<option value="Ia memberikan saya motivasi">Ia memberikan saya motivasi</option>
+</select>
+
+<h2>Lepas baca semua kata-kata kat website saya ni you rasa nak berubah ?</h2>
+<h2>Anything All THE BEST</h2>
+<from method='post'>
+Komen:<br/>
+<textarea name='Komen'id='komen'>
+</textarea><br/>
+<input type='hidden'name='articleid'
+id='articleid'value='<? echo $_GET["id"];?>'/>
+<input type='submit'value='Hantar'/>
+</form>
+</body>
+</html>
